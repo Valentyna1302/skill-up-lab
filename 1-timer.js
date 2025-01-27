@@ -1,0 +1,2 @@
+import"./assets/styles-B37gaLlg.js";import{f as o}from"./assets/vendor-EyZmBGcZ.js";const e=document.querySelector("[data-start]");e.disabled=!0;const a={enableTime:!0,time_24hr:!0,defaultDate:new Date,minuteIncrement:1,onClose(t){t[0]<=Date.now()?window.alert("Please choose a date in the future"):(t[0],e.disabled=!1)}};o("#datetime-picker",a);e.addEventListener("click",()=>{console.log("Кнопку натиснули!")});
+//# sourceMappingURL=1-timer.js.map
